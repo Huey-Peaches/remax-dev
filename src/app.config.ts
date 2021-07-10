@@ -2,7 +2,7 @@
  * @Author: KeMull
  * @Date: 2021-05-21 16:04:16
  * @LastEditors: KeMull
- * @LastEditTime: 2021-05-21 16:40:34
+ * @LastEditTime: 2021-06-25 17:12:05
  */
 import { AppConfig } from "remax/wechat"
 
@@ -19,12 +19,16 @@ const config: AppConfig = {
 		borderStyle: "white",
 		list: [
 			{
+				text: "首页",
 				pagePath: "pages/index/index",
-				text: "组件",
+				iconPath: "images/home.png",
+				selectedIconPath: "images/home_choosed.png",
 			},
 			{
+				text: "关于我们",
 				pagePath: "pages/about/index",
-				text: "接口",
+				iconPath: "images/about.png",
+				selectedIconPath: "images/home_choosed.png",
 			},
 		],
 		position: "bottom",
